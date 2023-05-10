@@ -1,0 +1,772 @@
+*
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+#container
+{
+    height: 80vh;
+    width: 100%;
+    background-image: url(https://image.blob.ix.co.za/PageImage/30842/15/30842-15-32618-22-CFAO_VWFAM_475x475-22-475x475-15-475x475.jpg);
+}
+#navbar
+{
+      width: 100%;
+  height: 70px;
+  left:0px;
+  border-bottom: 2px hotpink;
+  box-shadow: 5px 0px 90px greenyellow;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top:0;
+  z-index: 1;
+  background:black;
+    
+}
+#navbar ul,ol
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 25px 0px;
+}
+}ul
+{
+    position: absolute;
+    left: 5%;
+}
+}ol
+{
+    position: absolute;
+    right: 5%;
+}
+li 
+{
+    margin: 0px 60px;
+    font-size: 23px;
+}
+.vwservices{
+    margin-left: 150px;
+}
+li a
+{
+    text-decoration: none;
+    color: #e2e2e2;
+    transition: o.5s;
+}
+li a:hover
+{
+    color: #000;
+}
+#logo
+{
+    height: 100px;
+    width: 80px;
+    position: absolute;
+    top: 5px;
+    left: calc(53% - 50px);
+}
+#logo img
+{
+    height: 65px;
+    float: right;
+    position: absolute;
+    top: -2px;
+    right: 12px;
+}
+#VWyear{
+    padding: 10px 15px;
+    font-size: 13px;
+    background-color: #ccc;
+}
+.flex_body{
+    display: flex;
+}
+.founder-img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin: 30px 30px ;
+}
+.header{
+    margin: 0;
+    font-weight: bold;
+    font-size: 80px;
+    color: #101B6C;
+    margin-bottom: 20px;
+}
+.content{
+    font-size: 25px;
+}
+.high_rated_cars_title{
+    text-align: center;
+    font-size: 30px;
+    background-color: lightblue;
+}
+.flex_cars_display{
+    display: flex;
+    align-items: center;
+}
+.border_cars{
+    border-color: #adaaaa;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.border_cars:hover{
+    zoom: 120%;
+}
+.car-picture{
+    width: 300px;
+    height: 250px;
+}
+.car-image{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: -5px;
+}
+.car-description{
+   background-color: #f8f3f3;
+}
+.car-name{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.rating-flex{
+    display: flex;
+    margin-bottom: 5px;
+}
+.rating{
+ color: #adaaaa;
+ display: inline-block;
+ margin-left: 5px;
+}
+.rating-star{
+    height: 20px;
+    margin-left: 70px;
+}
+.rating-points{
+ color: rgb(254, 220, 29);
+ font-size: 20px;
+ margin-left: 5px;
+}
+.number_of_ratings{
+    margin-left: 20px;
+    color: #adaaaa;
+}
+.newly-launched{
+    text-align: center;
+    color: rgb(255, 217, 4);
+    font-weight: bold;
+}
+.car-price{
+    font-weight: bold ;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.car-price-range{
+    color: rgb(156, 154, 154);
+    display: inline-block;
+    font-size: 17px;
+    margin-right: -20px;
+}
+.highlights-table-name{
+    font-size: 30px;
+    background-color: lightblue;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.highlights-table{
+    margin-left: 40px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #adaaaa;
+    display: flex;
+    font-size: 25px;
+    width: 800px;
+    height: 60px;
+}
+.highlights-property{
+    margin-right: 200px;
+    width: 200px;
+}
+.highlights-property:hover{
+    color: #adaaaa;
+}
+.highlights-value{
+    font-weight: bold;
+}
+.About{
+    text-align: center;
+    font-size: 30px;
+    background-color: lightblue;
+}
+
+.About-highlights{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.GT-vw{
+   text-align: center;
+    font-size: 30px;
+    background-color: lightblue;
+    font-weight: bold;
+ 
+}
+footer{
+    background-color: black;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px ;
+}
+.motorsport {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    margin: 30px 30px ;
+    display: flex;
+}
+.motorsport {
+      transition: transform 0.5s;
+    }
+    
+    .motorsport:hover {
+      transform: scale(1.2);
+    }
+
+        .image-text-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .image-text-container p {
+      margin-left: 10px;
+    }
+    .vw-about{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+.GT-title{
+    font-size:35px;
+    text-align: center;
+} 
+
+.GT-para{
+    text-align: center;
+    font-size:20px;
+}
+
+.motorsport1 {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    margin: 30px 30px ;
+    display: block;
+    align-items: center;
+}
+.motorsport1 {
+      transition: transform 0.5s;
+    }
+    
+    .motorsport1:hover {
+      transform: scale(1.2);
+    }
+
+
+/* Initial form state */
+.form {
+  --col1: #fff;
+  --col2: #252325;
+  --col3: rgba(232, 213, 196, 0.9);
+  --col4: #ffffff;
+  --col5: #000066;
+  --sh: rgba(80, 80, 80, 0.35);
+  --rad: 4px;
+  --radBig: 10px;
+  border-radius: 0 0 var(--radBig) var(--radBig);
+  box-shadow: 0 0 20px var(--sh);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em 1em;
+  padding: 1em;
+  position: relative;
+  max-width: 75%;
+  max-height: 90px;
+  transition: background .3s ease-out, max-height .3s ease-out;
+  overflow: hidden;
+}
+
+.form::before {
+  content: 'Ready for the test Drive?';
+  color: var(--col2);
+  font-size: 1.2em;
+  font-weight: 700;
+  display: grid;
+  width: calc(100% - 2em);
+  height: 60%;
+  position: absolute;
+  place-items: center;
+  z-index: 99999;
+}
+
+.form::after {
+  content: '';
+  backdrop-filter: blur(6px) grayscale(100%);
+  background: linear-gradient(-180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,.5) 70%, rgba(255, 255, 255, 0.3) 90%);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: block;
+  position: absolute;
+  z-index: 999;
+}
+
+.form::after,
+.form::before {
+  border-radius: 0 0 var(--radBig) var(--radBig);
+  pointer-events: none;
+  transition: all .5s ease-out;
+}
+
+/* Form hover and focus */
+.form:hover,
+.form:focus-within {
+  max-width: 100%;
+  max-height: 380px;
+}
+
+.form:focus-within {
+  overflow: initial;
+}
+
+.form:hover::before,
+.form:hover::after {
+  opacity: 0;
+}
+
+.form:hover::after {
+  backdrop-filter: blur(0) grayscale(0%);
+}
+
+.form header {
+  color: var(--col1);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+/* Labels and inputs UI */
+:is(.form) label span, label input {
+  flex: 1 100%;
+  transition: all .3s ease-out;
+}
+
+:is(.form) input, select, button {
+  appearance: none;
+  border: 0;
+  padding: .75em;
+  border-radius: var(--rad);
+  transition: all .3s ease-out;
+}
+
+.form label {
+  display: flex;
+  flex-flow: row wrap;
+  color: var(--col4);
+  gap: .5em;
+}
+
+.form input {
+  box-shadow: inset 3px 3px 1px var(--sh);
+}
+
+.form fieldset {
+  display: flex;
+  backdrop-filter: blur(10px);
+  flex-flow: row nowrap;
+  gap: 1em;
+  position: relative;
+  transition: all .3s ease-out;
+  padding: 1rem;
+  z-index: 10;
+  border: 3px double var(--col1);
+  border-radius: var(--rad);
+}
+
+.form fieldset label {
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: .75em;
+}
+
+.sm {
+  justify-content: space-around;
+}
+
+.sm span {
+  text-align: center;
+}
+
+.form select {
+  box-shadow: inset 3px 3px 1px var(--sh);
+  padding: .75em 1.75em .75em 0.5em;
+  position: relative;
+}
+
+.custom-select {
+  position: relative;
+}
+
+.custom-select::after {
+  position: absolute;
+  content: "";
+  top: 45%;
+  right: 5px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: var(--col5) transparent transparent transparent;
+}
+
+.form fieldset span {
+  flex: 1 100%;
+}
+
+.form fieldset input {
+  flex: 0 1 40px;
+}
+
+.form button {
+  background-color: var(--col1);
+  color: var(--col4);
+  border: 2px solid var(--col4);
+  font-size: 1em;
+  font-weight: 700;
+  align-self: center;
+  padding: .5em 1.5em;
+  appearance: none;
+}
+
+/* Form and UI valid and invalid states */
+.form input:focus,
+.form select:focus {
+  outline: 3px solid var(--col3);
+  outline-offset: 1px;
+}
+
+.form input:invalid:not(:focus),
+.form select:invalid:not(:focus) {
+  background-color: var(--col3);
+  outline: 3px solid var(--col4);
+  outline-offset: 1px;
+}
+
+.form input:valid:not(:focus),
+.form select:valid:not(:focus) {
+  outline: 3px solid var(--col1);
+  outline-offset: 1px;
+}
+
+.form .message {
+  display: block;
+  opacity: 0;
+  font-size: .75em;
+  font-weight: 400;
+  transition: all .3s ease-out;
+  margin: -1rem 0 0;
+}
+
+.form:has(:invalid) .message {
+  opacity: 1;
+  margin: .25rem 0 0 0;
+}
+
+label:has(input:invalid),
+label:has(select:invalid) {
+  color: var(--col3);
+  opacity: .8;
+}
+
+label:has(input:valid),
+label:has(select:valid) {
+  opacity: 1;
+}
+
+.form:hover:has(:focus, :active):valid .submitCard {
+  max-height: 180px;
+  opacity: 1;
+  transition: opacity 1s ease-out .5s, translate 1.3s ease-out;
+  translate: 0 100%;
+}
+
+.form:hover:invalid {
+  transition: all .3s ease-out;
+  background-color: var(--col5);
+}
+
+.form:hover:valid {
+  transition: all .3s ease-out;
+  background-color: var(--col1);
+}
+
+.form:hover:valid * {
+  color: var(--col2);
+}
+
+.form:hover:valid input,
+.form:hover:valid select {
+  outline: 3px solid var(--col2);
+}
+
+.form:hover:invalid fieldset {
+  border: 1px dashed var(--col3);
+}
+
+.form:hover:valid fieldset {
+  border: 1px dashed var(--col2);
+}
+
+/* Submit block */
+.form .submitCard {
+  display: flex;
+  justify-content: center;
+  background-color: var(--col2);
+  border-radius: 0 0 var(--rad) var(--rad);
+  bottom: 0;
+  padding: .5em;
+  opacity: 0;
+  max-height: 0;
+  translate: 0 -100%;
+  position: absolute;
+  width: calc(100% - 2em);
+  transition: all 2s ease-out .1s;
+  z-index: -1;
+}
+@keyframes clockwise {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes counter-clockwise {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.gearbox {
+  background: #111;
+  height: 150px;
+  width: 200px;
+  position: absolute;
+  border: none;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+  top: 3;
+  left: 0;
+  right: 0;
+  bottom: 1;
+  margin: auto;
+}
+
+.gearbox .overlay {
+  border-radius: 6px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  box-shadow: inset 0px 0px 20px black;
+  transition: background 0.2s;
+}
+
+.gearbox .overlay {
+  background: transparent;
+}
+
+.gear {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  box-shadow: 0px -1px 0px 0px #888888, 0px 1px 0px 0px black;
+  border-radius: 30px;
+}
+
+.gear.large {
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+}
+
+.gear.large:after {
+  height: 96px;
+  width: 96px;
+  border-radius: 48px;
+  margin-left: -48px;
+  margin-top: -48px;
+}
+
+.gear.one {
+  top: 12px;
+  left: 10px;
+}
+
+.gear.two {
+  top: 61px;
+  left: 60px;
+}
+
+.gear.three {
+  top: 110px;
+  left: 10px;
+}
+
+.gear.four {
+  top: 13px;
+  left: 128px;
+}
+
+.gear:after {
+  content: "";
+  position: absolute;
+  height: 36px;
+  width: 36px;
+  border-radius: 36px;
+  background: #111;
+  top: 50%;
+  left: 50%;
+  margin-left: -18px;
+  margin-top: -18px;
+  z-index: 3;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1), inset 0px 0px 10px rgba(0, 0, 0, 0.1), inset 0px 2px 0px 0px #090909, inset 0px -1px 0px 0px #888888;
+}
+
+.gear-inner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #555;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.large .gear-inner {
+  border-radius: 60px;
+}
+
+.gear.one .gear-inner {
+  animation: counter-clockwise 3s infinite linear;
+}
+
+.gear.two .gear-inner {
+  animation: clockwise 3s infinite linear;
+}
+
+.gear.three .gear-inner {
+  animation: counter-clockwise 3s infinite linear;
+}
+
+.gear.four .gear-inner {
+  animation: counter-clockwise 6s infinite linear;
+}
+
+.gear-inner .bar {
+  background: #555;
+  height: 16px;
+  width: 76px;
+  position: absolute;
+  left: 50%;
+  margin-left: -38px;
+  top: 50%;
+  margin-top: -8px;
+  border-radius: 2px;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.large .gear-inner .bar {
+  margin-left: -68px;
+  width: 136px;
+}
+
+.gear-inner .bar:nth-child(2) {
+  transform: rotate(60deg);
+}
+
+.gear-inner .bar:nth-child(3) {
+  transform: rotate(120deg);
+}
+
+.gear-inner .bar:nth-child(4) {
+  transform: rotate(90deg);
+}
+
+.gear-inner .bar:nth-child(5) {
+  transform: rotate(30deg);
+}
+
+.gear-inner .bar:nth-child(6) {
+  transform: rotate(150deg);
+}    
